@@ -73,10 +73,10 @@ public class TestDb extends AndroidTestCase {
         // Build a HashSet of all of the column names we want to look for
         final HashSet<String> locationColumnHashSet = new HashSet<String>();
         locationColumnHashSet.add(WeatherContract.LocationEntry._ID);
-//        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_CITY_NAME);
-//        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_COORD_LAT);
-//        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_COORD_LONG);
-//        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING);
+        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_CITY_NAME);
+        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_COORD_LAT);
+        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_COORD_LONG);
+        locationColumnHashSet.add(WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING);
 
         int columnNameIndex = c.getColumnIndex("name");
         do {
