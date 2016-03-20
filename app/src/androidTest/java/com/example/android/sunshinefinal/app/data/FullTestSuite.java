@@ -1,10 +1,8 @@
-package com.example.android.sunshinefinal.app;
+package com.example.android.sunshinefinal.app.data;
 
 /**
- * Created by srthg on 3/20/2016.
+ * Created by srthg on 3/21/2016.
  */
-
-
 import android.test.suitebuilder.TestSuiteBuilder;
 
 import junit.framework.Test;
