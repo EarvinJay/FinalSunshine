@@ -68,7 +68,7 @@ public class TestProvider extends AndroidTestCase {
        delete functionality is available in the ContentProvider.
      */
     public void deleteAllRecordsFromDB() {
-        WeatherDbHelper dbHelper = new WeatherDbHelper(mContext);
+        WeatherDBHelper dbHelper = new WeatherDBHelper(mContext);
         SQLiteDatabase db = dbHelper.getWritableDatabase();
 
         db.delete(WeatherEntry.TABLE_NAME, null, null);
