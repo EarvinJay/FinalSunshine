@@ -91,7 +91,7 @@ public class ForecastFragment extends Fragment {
         mForecastAdapter = new ArrayAdapter<>(
                 getActivity(),
                 R.layout.list_item_forecast,
-                R.id.tvListItemForecast,
+                R.id.list_item_date_textview,
                 new ArrayList<String>());
 
         // Get a referece to the ListView and attach the adapter to it.
